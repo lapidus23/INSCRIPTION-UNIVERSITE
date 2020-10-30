@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>inscription à l'université de nkoumkoum</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+<body>
+	<h1>université berceau de anges</h1><h2>formulaire d'inscription</h2>
+	<br>
+	<br>
+	<br>
+	<h3>fiche de renseignement sur le postulant</h3>
+	<form method="post" action="traitement.php">
+		<br>
+		<br>
+		<fieldset>
+			<legend>Informations Obligatoires</legend>
+	<p>
+		<label for="Noms">Noms :</label><input type="text" name="nom" placeholder="Inscrivez votre nom">
+	<br>
+	<br>
+	    <label for="Prénoms">Prénoms :</label><input type="text" name="prénom" placeholder="Inscrivez votre prénom">
+	    <br>
+	    <br>
+	    <label for="Genre">Sexe :</label><br/><input type="checkbox" name="homme" id="homme"/><label for="homme">Masculin</label><br/><input type="checkbox" name="femme" id="femme"/><label for="femme">Féminin</label><br/>
+	    <br>
+	    <br>
+	    <label for="Date de naissance">Date de Naissance :</label><input type="date" name="date de naissance" placeholder="Jr/Mois/Année">
+	    <br>
+	    <br>
+	    <label for="Lieu de Naissance">Lieu de Naissance :</label><input type="text" name="lieu de naissance" placeholder="Lieu de Naissance">
+	    <br>
+	    <br>
+	    <label for="Série">Série académique :</label>
+	    <select name="série" id="série académique">
+	      <option value="Série T.I.">Série T.I.</option>
+	      <option value="Série C">Série C</option>
+	      <option value="Série A">Série A</option>
+	      <option value="Série SES">Série SES</option>
+	    </select>
+	    </fieldset>
+	    <br>
+	    <fieldset>
+	    	<legend>Informations Facultatives</legend>
+	    <label for="Filière">Filière choisie :</label><input type="text" name="Filière" placeholder="Inscrivez la filière choisie">
+	    <br>
+	    <br>
+	    <label for="Langue">Langue parlée :</label>
+	    <select name=" Langue" id="Langue parlée">
+	      <option value=" Français">Français</option>
+	      <option value="English">English</option>
+	      <option value="Deutsch">Deutsch</option>
+	      <option value="Italiano">Italiano</option>
+	      <option value="Espa~nol">Espa~nol</option>
+	    </select>
+	    <br>
+	    <br>
+	    <label for="email">Adresse email :</label><input type="email" name="email" placeholder="Entrez votre adresse email" id="email" required="required">
+	    <br>
+	    <br>
+	     <P>
+        	<label for="commentaires">Commentaires :</label>
+
+        	<br />
+
+        	<textarea name="commentaires" id="commentaires" rows="10" cols="50">
+
+        	</textarea>
+        </P>
+        </fieldset>
+	    <br>
+	    <a href="traitement.php">Confirmation de postulation
+	    <input type="submit" name="ENVOYER/SUBMIT"/>
+	    </a>
+	    <a>
+	    <input type="reset" name="RESET/REINITIALISER">
+	    </a>
+	    <br>
+	    <br>
+	    <br>
+	    <br>
+	    <h4><a href="emplio du temps.html">Emlpoi du temps</a></h4>
+	    <footer>la recherche du savoir est notre mot d'ordre !</footer>
+	   	    
+	    
+
+    </p>
+	</form>
+
+</body>
+</html>
